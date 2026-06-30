@@ -1,5 +1,10 @@
 export type Cardtype = "active"|"mental";
 export type CardPlan = "sense"|"logic"|"anomaly"|"free";
+export type CardEffect = 
+|{
+    type:"score";
+    value:number;
+};
 export interface Card {
     id:string;
     name:string;
@@ -12,5 +17,5 @@ export interface Card {
     oncePerLesson:boolean;
     oncePerDeck:boolean;
 
-    effects:string[];
+    effects:CardEffect[];
 }
