@@ -4,7 +4,15 @@ export type CardEffect =
 |{
     type:"score";
     value:number;
+}|{
+    type:"energy";
+    value:number;
+}
+|{
+    type:"changeState";
+    state:"Strong"|"Conservation";
 };
+
 export interface Card {
     id:string;
     name:string;
