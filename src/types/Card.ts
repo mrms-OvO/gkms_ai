@@ -1,7 +1,7 @@
 export type Cardtype = "active"|"mental";
 export type CardPlan = "sense"|"logic"|"anomaly"|"free";
 export type CardEffect = 
-|{
+{
     type:"score";
     value:number;
 }|{
