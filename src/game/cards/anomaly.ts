@@ -4,7 +4,7 @@ export const anomalyCards: Card[] = [
     {
         id: "A_001",
         name: "魅せ方の基本",
-        icon: "aa",
+        icon: "/cards/魅せ方の基本.jpg",
         cost: 4,
         type: "active",
         plan: "anomaly",
@@ -24,7 +24,7 @@ export const anomalyCards: Card[] = [
         {
         id: "A_002",
         name: "立ち回りの基本",
-        icon: "ab",
+        icon: "/cards/立ち回りの基本.jpg",
         cost: 2,
         type: "mental",
         plan: "anomaly",
